@@ -42,8 +42,11 @@ The script will print which indexes would be the right guesses for a specific pe
 
 In the directory Facial-recognition, there are three additional python scripts. These can be used to further explore the algorithm. The python files are the following: 
 
-Eigenface.py: This script creates images of the eigenfaces/principal components from a training set. The Images will be saved in the folder called Eigenfaces_{Training_set} in this folder Eigenface.py is located. 
+### Eigenface.py 
+This script creates images of the eigenfaces/principal components from a training set. The Images will be saved in the folder called Eigenfaces_{Training_set} in this folder Eigenface.py is located. 
 
-Plot.py: This script can plot the coordinate vectors for a training set with two arbitray principal components on the x- and y axis. The training set have to be specified along with which principal componens sould be on each axis.
+### Plot.py
+This script can plot the coordinate vectors for a training set with two arbitray principal components on the x- and y axis. The training set have to be specified along with which principal componens sould be on each axis.
 
-Table.py: This script can plot confusion matricies with latex syntax for a training set and test set.
+### Table.py
+This script can plot confusion matricies with latex syntax for a training set and test set.

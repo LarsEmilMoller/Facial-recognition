@@ -32,3 +32,13 @@ The folders containing the images of the test set of three different sizes are n
 
 • Grey_Test_Fullcropped
 
+The script will then print the indivitual guesses 
+
+
+In the folder Other_scrips have three additional python scrips. These can be used to further explore the algorithm. The python files are the following: 
+
+Eigenface.py: This script can create images of the eigenfaces/principal components from a training set.
+
+Plot.py: This script can plot the coordinate vectors for a training set with two arbitray principal components on the x- and y axis. 
+
+Table.py: This script can plot confusion matricies for a training set and test set.

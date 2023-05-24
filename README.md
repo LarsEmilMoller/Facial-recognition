@@ -7,7 +7,6 @@ To use the facial recognition algorithm open Individual_results.py. Then specify
 
 • Grey_control_2_each
 
-
 • Grey_control_3_each
 
 • Grey_control_4_each
@@ -37,8 +36,8 @@ The script will print which indexes will be the right guesses for a specefic per
 
 In the folder Other_scrips have three additional python scrips. These can be used to further explore the algorithm. The python files are the following: 
 
-Eigenface.py: This script can create images of the eigenfaces/principal components from a training set.
+Eigenface.py: This script creates images of the eigenfaces/principal components from a training set. The Images will be saved in the folder called Eigenfaces_Training_set in this same folder as Eigenface.py is located. 
 
-Plot.py: This script can plot the coordinate vectors for a training set with two arbitray principal components on the x- and y axis. 
+Plot.py: This script can plot the coordinate vectors for a training set with two arbitray principal components on the x- and y axis. The training set have to be specified, and which principal componens sould be on each axis.
 
 Table.py: This script can plot confusion matricies for a training set and test set.

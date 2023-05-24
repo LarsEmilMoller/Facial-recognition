@@ -11,7 +11,13 @@ To use the facial recognition algorithm open Individual_results.py. Then specify
 
 • Grey_control_4_each
 
-• Grey_facialexpressions_set
+• Grey_facialexpressions_2_set
+
+• Grey_facialexpressions_3_set
+
+• Grey_facialexpressions_4_set
+
+• Grey_facialexpressions_5_set
 
 • Grey_distance_set
 

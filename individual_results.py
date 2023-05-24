@@ -1,20 +1,15 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Mar 28 20:58:36 2023
-
-@author: Phili
-"""
 
 import os
 import numpy as np
 from PIL import Image
 
-Training = "Grey_Basis"
-Test = "Grey_Test"
+Training = "Grey_control_set"
+Test = "Grey_Test_set"
 Names=['Anna','Lars','Mads','Philip','Signe C','Signe H']
 
-Training_folder = os.path.join(os.getcwd(),"GreyPics",Training)
-Test_folder = os.path.join(os.getcwd(),"GreyPics",Test)
+Training_folder = os.path.join(os.getcwd(),Training)
+Test_folder = os.path.join(os.getcwd(),Test)
 
 def image_matrix(Training_folder):
     """

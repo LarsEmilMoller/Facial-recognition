@@ -31,7 +31,7 @@ The folders containing the images of the test set of three different sizes are n
 
 • Grey_Test_Fullcropped
 
-The script will print which indexes would be he right guesses for a specefic person and then the 10 guesses of the training images corresponding to that person. This is done for each of the 6 subject, and then followed by the success rate of the experiment. 
+The script will print which indexes would be he right guesses for a specefic person, and afterwards the guesses of the 10 test images corresponding to that person. This is done for each of the 6 subject, and then followed by the success rate of the experiment. 
 
 
 In the directory Facial-recognintion, there are three additional python scrips. These can be used to further explore the algorithm. The python files are the following: 

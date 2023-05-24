@@ -31,13 +31,13 @@ The folders containing the images of the test set of three different sizes are n
 
 • Grey_Test_Fullcropped
 
-The script will print which indexes will be the right guesses for a specefic person and then the 10 guesses of the training images corresponding to that person. This is done for each of the 6 subject, and then followed by the success rate of the experiment. 
+The script will print which indexes would be he right guesses for a specefic person and then the 10 guesses of the training images corresponding to that person. This is done for each of the 6 subject, and then followed by the success rate of the experiment. 
 
 
-In the folder Other_scrips have three additional python scrips. These can be used to further explore the algorithm. The python files are the following: 
+In the directory Facial-recognintion, there are three additional python scrips. These can be used to further explore the algorithm. The python files are the following: 
 
-Eigenface.py: This script creates images of the eigenfaces/principal components from a training set. The Images will be saved in the folder called Eigenfaces_Training_set in this same folder as Eigenface.py is located. 
+Eigenface.py: This script creates images of the eigenfaces/principal components from a training set. The Images will be saved in the folder called Eigenfaces_{Training_set} in this folder Eigenface.py is located. 
 
-Plot.py: This script can plot the coordinate vectors for a training set with two arbitray principal components on the x- and y axis. The training set have to be specified, and which principal componens sould be on each axis.
+Plot.py: This script can plot the coordinate vectors for a training set with two arbitray principal components on the x- and y axis. The training set have to be specified along with which principal componens sould be on each axis.
 
-Table.py: This script can plot confusion matricies for a training set and test set.
+Table.py: This script can plot confusion matricies with latex syntax for a training set and test set.

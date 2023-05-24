@@ -32,7 +32,7 @@ The folders containing the images of the test set of three different sizes are n
 
 • Grey_Test_Fullcropped
 
-The script will then print the indivitual guesses 
+The script will print which indexes will be the right guesses for a specefic person and then the 10 guesses of the training images corresponding to that person. This is done for each of the 6 subject, and then followed by the success rate of the experiment. 
 
 
 In the folder Other_scrips have three additional python scrips. These can be used to further explore the algorithm. The python files are the following: 

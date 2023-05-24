@@ -48,7 +48,7 @@ The script will print which indexes would be the right guesses for a specific pe
 This script creates images of the eigenfaces/principal components from a training set. The Images will be saved in a folder named Eigenfaces_{Training_set} in the folder in which Eigenface.py is located in. 
 
 ### Plot.py
-This script can plot the coordinate vectors for a training set with two arbitray principal components on the x- and y axis. The training set have to be specified along with which principal componens should be on each axis.
+This script plots the coordinate vectors for a training set with two arbitray principal components on the x- and y axis. The training set have to be specified along with which principal componens should be on each axis.
 
 ### Table.py
-This script can plot confusion matricies with latex syntax for a training set and test set.
+This script prints confusion matricies with latex syntax for a training set and test set.

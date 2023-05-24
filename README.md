@@ -37,18 +37,14 @@ The folders containing the images of the test set of three different sizes are n
 
 • Grey_Test_Fullcropped
 
-In the directory **Facial-recognition**, there are four python scripts. The python files are the following: 
+In the directory **Facial-recognition**, there are three python scripts. The python files are the following: 
 
 ### Individual_results.py
 This script is the facial recognition algorithm. To use the algorithm specify which folder should be the test set and training set.
 The script will print which indexes would be the right guesses for a specific person, and afterwards the guesses of the 10 test images corresponding to that person. This is done for each of the 6 subjects, and then followed by the success rate of the experiment. 
 
-
 ### Eigenface.py 
 This script creates images of the eigenfaces/principal components from a training set. The Images will be saved in a folder named Eigenfaces_{Training_set} in the folder in which Eigenface.py is located in. 
-
-### Plot.py
-This script plots the coordinate vectors for a training set with two arbitray principal components on the x- and y axis. The training set have to be specified along with which principal componens should be on each axis.
 
 ### Table.py
 This script prints confusion matricies with latex syntax for a training set and test set.

@@ -1,4 +1,6 @@
 # Facial-recognition
+
+### Individual_results.py
 To use the facial recognition algorithm open Individual_results.py. Then specify which folder should be the test set and training set.  The folders are distributed such that every training set has its own folder. The different training sets are named:
 
 • Grey_control_set 
